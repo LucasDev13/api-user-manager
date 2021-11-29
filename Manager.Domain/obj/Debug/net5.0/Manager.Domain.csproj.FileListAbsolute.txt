@@ -2,11 +2,14 @@ C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domai
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\bin\Debug\net5.0\Manager.Domain.dll
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\bin\Debug\net5.0\ref\Manager.Domain.dll
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\bin\Debug\net5.0\Manager.Domain.pdb
+C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\bin\Debug\net5.0\Manager.Core.dll
+C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\bin\Debug\net5.0\Manager.Core.pdb
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\obj\Debug\net5.0\Manager.Domain.csproj.AssemblyReference.cache
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\obj\Debug\net5.0\Manager.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\obj\Debug\net5.0\Manager.Domain.AssemblyInfoInputs.cache
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\obj\Debug\net5.0\Manager.Domain.AssemblyInfo.cs
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\obj\Debug\net5.0\Manager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\obj\Debug\net5.0\Manager.Domain.csproj.CopyComplete
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\obj\Debug\net5.0\Manager.Domain.dll
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\obj\Debug\net5.0\ref\Manager.Domain.dll
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Domain\obj\Debug\net5.0\Manager.Domain.pdb

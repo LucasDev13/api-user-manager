@@ -1,0 +1,5 @@
+C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Service\obj\Debug\net5.0\Manager.Service.csproj.AssemblyReference.cache
+C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Service\obj\Debug\net5.0\Manager.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Service\obj\Debug\net5.0\Manager.Service.AssemblyInfoInputs.cache
+C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Service\obj\Debug\net5.0\Manager.Service.AssemblyInfo.cs
+C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Service\obj\Debug\net5.0\Manager.Service.csproj.CoreCompileInputs.cache

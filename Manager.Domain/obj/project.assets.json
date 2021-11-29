@@ -10,6 +10,16 @@
         "runtime": {
           "lib/net5.0/FluentValidation.dll": {}
         }
+      },
+      "Manager.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Manager.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Manager.Core.dll": {}
+        }
       }
     }
   },
@@ -31,11 +41,17 @@
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
       ]
+    },
+    "Manager.Core/1.0.0": {
+      "type": "project",
+      "path": "../Manager.Core/Manager.Core.csproj",
+      "msbuildProject": "../Manager.Core/Manager.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "FluentValidation >= 10.3.4"
+      "FluentValidation >= 10.3.4",
+      "Manager.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -68,7 +84,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Lucas - Developer C#\\Documents\\workerspace-dotnet\\Manager\\Manager.Core\\Manager.Core.csproj": {
+              "projectPath": "C:\\Users\\Lucas - Developer C#\\Documents\\workerspace-dotnet\\Manager\\Manager.Core\\Manager.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,4 +1,5 @@
-﻿using Manager.Domain.Validators;
+﻿using Manager.Core.Exceptions;
+using Manager.Domain.Validators;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Manager.Domain.Entities
 {
-    public class User : Base
+    public class User : Base  
     {
         //Propriedades
         public string Name { get; private set; }
@@ -25,6 +26,7 @@ namespace Manager.Domain.Entities
             Email = email;
             Password = password;
             _errors = new List<string>();
+            Validate();
         }
 
         //Comportamentos com validações de domínio.
@@ -56,7 +58,7 @@ namespace Manager.Domain.Entities
             {
                 foreach (var error in validation.Errors)
                     _errors.Add(error.ErrorMessage);
-                throw new Exception("Campos inválidos, por favor corrija-os!" + _errors[0]);
+                throw new DomainException("Campos inválidos, por favor corrija-os!", _errors);
             }
             return true;
         }
