@@ -17,11 +17,11 @@ namespace Manager.Infra.Context
         public ManagerContext(DbContextOptions<ManagerContext> options) : base(options)
         {}
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            //optionsBuilder.UseSqlServer(@"Data Source=Lucas\SQLEXPRESS;Initial Catalog=USERMANAGERAPI; Integrated Security=true;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            optionsBuilder.UseSqlServer("Server = localhost,1433; Database = USERMANAGERAPI; User ID = sa; Password = 1q2w3e4r@#$");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    //optionsBuilder.UseSqlServer(@"Data Source=Lucas\SQLEXPRESS;Initial Catalog=USERMANAGERAPI; Integrated Security=true;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        //    optionsBuilder.UseSqlServer("Server = localhost,1433; Database = USERMANAGERAPI; User ID = sa; Password = 1q2w3e4r@#$");
+        //}
 
         public virtual DbSet<User> Users { get; set; }
 

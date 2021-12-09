@@ -42,7 +42,7 @@ namespace Manager.Service.Services
         {
             var userExists = await _userRepository.Get(userDTO.Id);
 
-            if (userExists != null)
+            if (userExists == null)
                 throw new DomainException("Já existe um usuário cadastrado com o email informado");
 
             var user = _mapper.Map<User>(userDTO);
