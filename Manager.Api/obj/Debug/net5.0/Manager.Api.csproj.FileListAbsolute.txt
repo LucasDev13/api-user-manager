@@ -9,6 +9,7 @@ C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Api\b
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Api\bin\Debug\net5.0\Manager.Api.pdb
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Api\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Api\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Api\bin\Debug\net5.0\EscNet.dll
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Api\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Lucas - Developer C#\Documents\workerspace-dotnet\Manager\Manager.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/reF2ZLrrcqKWY7sGUfvLnxMQqAGIwtrrO1Qm4w2HzZt85KjdcVerwHdgy4BXFE2uRncqtwkzCuRBEMtR9R8CA==",
+  "dgSpecHash": "X5VUql7FjFW7643nZc0dlrpovSwUCW5KI5e8paE0kyj1FiH+4QIvyf+bwb6QQXKSdZ5hsKO8ccn+tYWLpXJPcQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lucas - Developer C#\\Documents\\workerspace-dotnet\\Manager\\Manager.Service\\Manager.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas - Developer C#\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Lucas - Developer C#\\.nuget\\packages\\escnet\\1.0.1\\escnet.1.0.1.nupkg.sha512",
     "C:\\Users\\Lucas - Developer C#\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
     "C:\\Users\\Lucas - Developer C#\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Lucas - Developer C#\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

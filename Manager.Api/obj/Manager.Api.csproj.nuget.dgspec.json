@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[4.4.1, )"
             },
+            "EscNet": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.12, )"
@@ -374,6 +378,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[10.1.1, )"
+            },
+            "EscNet": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ij/wyttGSt3VlgzutBT5Ic0K9zuVNl8pbmHAMbC3vkhj3cW1tem/gfMdVrcReMUWqMxNXvdR+bmmoBPoibGoWQ==",
+  "dgSpecHash": "gNC7dmo1F/nHV1h3Kx1jWP/pCQ+kUPi07xwMFaHKb+AjtYI+iWkQnLziRJINtuiWcGD2F+ZRxgVhv6kcvVMPZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lucas - Developer C#\\Documents\\workerspace-dotnet\\Manager\\Manager.Api\\Manager.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas - Developer C#\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Lucas - Developer C#\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
+    "C:\\Users\\Lucas - Developer C#\\.nuget\\packages\\escnet\\1.0.1\\escnet.1.0.1.nupkg.sha512",
     "C:\\Users\\Lucas - Developer C#\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
     "C:\\Users\\Lucas - Developer C#\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.12\\microsoft.aspnetcore.authentication.jwtbearer.5.0.12.nupkg.sha512",
     "C:\\Users\\Lucas - Developer C#\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.12\\microsoft.aspnetcore.authentication.openidconnect.5.0.12.nupkg.sha512",
