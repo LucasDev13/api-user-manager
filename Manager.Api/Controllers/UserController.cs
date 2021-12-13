@@ -4,6 +4,7 @@ using Manager.Api.ViewModels;
 using Manager.Core.Exceptions;
 using Manager.Service.DTO;
 using Manager.Service.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -25,6 +26,7 @@ namespace Manager.Api.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         [Route("/api/v1/users/create")]
         public async Task<IActionResult> Create([FromBody] CreateUserViewModel userViewModel)
         {
@@ -51,6 +53,7 @@ namespace Manager.Api.Controllers
 
 
         [HttpPut]
+        [Authorize]
         [Route("/api/v1/users/update")]
         public async Task<IActionResult> Update([FromBody] UpdateUserViewModel userViewModel)
         {
@@ -77,6 +80,7 @@ namespace Manager.Api.Controllers
         }
 
         [HttpDelete]
+        [Authorize]
         [Route("/api/v1/users/remove/{id}")]
         public async Task<IActionResult> Remove(long id)
         {
@@ -101,6 +105,7 @@ namespace Manager.Api.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [Route("/api/v1/users/get/{id}")]
         public async Task<IActionResult> Get(long id)
         {
@@ -133,6 +138,7 @@ namespace Manager.Api.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [Route("/api/v1/users/get-all")]
         public async Task<IActionResult> Get()
         {
@@ -157,6 +163,7 @@ namespace Manager.Api.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [Route("/api/v1/users/get-by-email")]
         public async Task<IActionResult> GetByEmail([FromQuery] string email)
         {
@@ -189,6 +196,7 @@ namespace Manager.Api.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [Route("/api/v1/users/search-by-name")]
         public async Task<IActionResult> SearchByName([FromQuery] string name)
         {
@@ -221,6 +229,7 @@ namespace Manager.Api.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [Route("/api/v1/users/search-by-email")]
         public async Task<IActionResult> SearchByEmail([FromQuery] string email)
         {
